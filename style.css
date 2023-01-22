@@ -1,36 +1,99 @@
+@import url('./fonts/Satoshi_Complete/Fonts/WEB/css/satoshi.css');
+
 @font-face {
     font-family: 'Crenzo';
-    src: url('crenzo-webfont.woff2') format('woff2'),
-         url('crenzo-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    src: url(./fonts/CRENZO.ttf);
 }
 
-
-
-
-@font-face {
-    font-family: 'Satoshi';
-    src: url('satoshi-variable-webfont.woff2') format('woff2'),
-         url('satoshi-variable-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+body {
+    max-width: 1010px;
+    margin: auto;
+    background-color: #FFFEF6;
 }
 
-
-
-
-@font-face {
-    font-family: 'SatoshiItalic';
-    src: url('satoshi-variableitalic-webfont.woff2') format('woff2'),
-         url('satoshi-variableitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+.stickynav {
+    background-color: rgba(255, 254, 246, 0.90);
+    ;
 }
+
 
 h1 {
     font-family: 'Crenzo', serif;
+    white-space:pre-line;
+} 
+
+h2 {
+    font-family: 'Satoshi';
+    font-size: 38px;
 }
+
+h3 {
+    text-decoration: underline;
+    font-family: 'Satoshi';
+    text-underline-offset: 8px;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Satoshi';
+}
+
+.menupill {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: yellow;
+}
+
+.card {
+    background-color: #FFFEF6;
+}
+
+.imgcard {
+   height: 200px;
+}
+
+.imgcard img {
+    height: 100%;
+}
+
+.projecttext {
+    white-space: pre-line;
+}
+
+.progress-bar {
+    background-color: yellow;
+    border-radius: 25px;
+    
+}
+
+.progress {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+
+.skills li {
+    list-style-type: " //   ";
+    padding-bottom: 0.2em;
+    width: fit-content;
+    list-style-position: inside;
+    font-size: large;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) { 
+
+    .imgcard {
+        height: 275px;
+     }
+
+ }
+
+
+@media (min-width: 992px)  {
+
+    .projects {
+        max-width: 860px;
+    }
+    
+    }
