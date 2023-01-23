@@ -1,4 +1,3 @@
-
 function Timer() {
     var counter = 5;
     var myTimer = setInterval(function() {
