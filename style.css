@@ -39,6 +39,10 @@ p {
     line-height: 1.5;
 }
 
+#successMessage {
+    display: none;
+}
+
 .menupill {
     border: 1px solid black;
     border-radius: 25px;
