@@ -157,7 +157,8 @@
     <div class="text-center">
         <h2 id="successMessage">Contact succesfully established</h2>
     </div>
-    <form name="contact" id="contactForm" method="POST" data-netlify="true" class="needs-validation" novalidate>
+    <form name="contact" id="contactForm" method="POST" data-netlify="true" class="needs-validation" data-netlify-honeypot="no-bots" novalidate>
+        <input class="d-none" name="no-bots">
         <div class="mb-3">
           <label for="InputName" class="form-label">Name</label>
           <input type="text" class="form-control" name="name" id="InputName" aria-describedby="nameHelp" required>
