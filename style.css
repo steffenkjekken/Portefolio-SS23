@@ -36,6 +36,7 @@ h3 {
 
 p {
     font-family: 'Satoshi';
+    line-height: 1.5;
 }
 
 .menupill {
@@ -61,7 +62,8 @@ p {
 }
 
 .progress-bar {
-    background-color: yellow;
+    background-color:yellow;
+    outline: 1px solid black;
     border-radius: 25px;
     
 }
@@ -80,6 +82,10 @@ p {
     font-size: large;
     font-weight: 300;
 }
+
+textarea {
+    resize: none;
+  }
 
 @media (min-width: 768px) { 
 
