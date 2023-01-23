@@ -6,9 +6,13 @@
 }
 
 body {
-    max-width: 1010px;
     margin: auto;
     background-color: #FFFEF6;
+}
+
+.wrapper {
+    max-width: 1010px;
+    margin: auto;
 }
 
 .stickynav {
@@ -39,6 +43,10 @@ p {
     line-height: 1.5;
 }
 
+html {
+    scroll-behavior: smooth;
+   }
+
 #successMessage {
     display: none;
 }
@@ -50,7 +58,8 @@ p {
     color: black;
 }
 
-.menupill:hover {
+a.menupill:hover,
+button.menupill:hover {
     border: 1px solid black;
     border-radius: 25px;
     background-color: black;
@@ -75,6 +84,10 @@ p {
 
 .imgcard img {
     height: 100%;
+}
+
+#projects {
+    padding-top: 5em;
 }
 
 .projecttext {
@@ -106,6 +119,10 @@ p {
 textarea {
     resize: none;
   }
+
+footer {
+    background-color: yellow;
+}
 
 @media (min-width: 768px) { 
 
