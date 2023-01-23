@@ -47,10 +47,26 @@ p {
     border: 1px solid black;
     border-radius: 25px;
     background-color: yellow;
+    color: black;
+}
+
+.menupill:hover {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: #FFFEF6;
 }
 
 .card {
     background-color: #FFFEF6;
+    transition: box-shadow .3s;
+    transition: transform .2s; /* Animation */
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: scale(1.009);
+     
 }
 
 .imgcard {
