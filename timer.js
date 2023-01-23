@@ -1,5 +1,5 @@
 function Timer() {
-    var counter = 5;
+    var counter = 4;
     var myTimer = setInterval(function() {
       document.getElementById("timer").innerHTML = counter;
       counter--;

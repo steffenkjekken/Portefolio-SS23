@@ -160,7 +160,7 @@
         <input class="d-none" name="no-bots">
         <div class="mb-3">
         <label for="InputName" class="form-label">Name</label>
-        <input type="text" class="form-control" name="name" id="InputName" aria-describedby="nameHelp" required>
+        <input type="text" class="form-control" name="name" minlength="2" id="InputName" aria-describedby="nameHelp" required>
         <div class="invalid-feedback">
             Please provide a name
         </div>
@@ -174,7 +174,7 @@
         </div>
         <div class="mb-3">
             <label for="FormControlTextarea" class="form-label">Message</label>
-            <textarea class="form-control" name="message" id="FormControlTextarea" rows="3" required></textarea>
+            <textarea class="form-control" name="message" id="FormControlTextarea" minlength="12" rows="3" required></textarea>
             <div class="invalid-feedback">
             No message ? :(
             </div>
